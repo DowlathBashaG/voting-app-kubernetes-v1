@@ -22,7 +22,7 @@
 
    showing external ip address
    
-# Redis
+## Redis
 
 1. kubectl create -f redis-pod.yml
 
@@ -34,7 +34,7 @@
 
    See the IP(ie) internal cluster-ip.
 
-# Postgres
+## Postgres
 
 1. kubectl create -f postgres-pod.yml
 
@@ -46,13 +46,13 @@
 
    See the IP(ie) internal cluster-ip.
 
-# Worker-app
+## Worker-app
 
 1. kubectl create -f worker-app-pod.yml
 
 2. kubectl get pods
 
-# Result-app
+## Result-app
 
 1. kubectl create -f result-app-pod.yml
 
@@ -60,7 +60,7 @@
    
    [ creating load balancer ]
    
-Url:
+## Url:
 
 [ root_ip ]  see the result app now.
    
